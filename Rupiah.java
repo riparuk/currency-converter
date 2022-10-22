@@ -9,6 +9,9 @@ class Rupiah extends MataUang{
 			case "USD":
 				System.out.println("to USD : "+ this.amount*0.000064);
 				break;
+			case "IDR":
+				System.out.println("to IDR : "+ this.amount*1.0);
+				break;
 			case "EUR":
 				System.out.println("to EUR : "+this.amount*0.000065);
 				break;
