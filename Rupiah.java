@@ -1,16 +1,14 @@
-*
- * @author (your name)
- * @version (a version number or a date)
- */
-public class Rupiah extends MataUang{
-    private int amount;
 
-    /**
-     * Constructor for objects of class Rupiah
-     */
-    public Rupiah(){
-        amount = 0;
-    }
-
-   
+class Rupiah extends MataUang{
+	private double amount = 0.0;
+	public void setMataUang(int amount){
+		this.amount = amount;
+	}
+	public void toMataUang(String matauang){
+		switch(matauang){
+			case "USD":
+				System.out.println("to USD : "+ this.amount/16000);
+				break;
+		}
+	}
 }
