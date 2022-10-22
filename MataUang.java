@@ -6,6 +6,6 @@
  */
 public abstract class MataUang{
 	abstract void toMataUang(String matauang);
-	abstract void setMataUang(int amount);
+	abstract void setMataUang(double amount);
   
 }
