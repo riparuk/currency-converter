@@ -1,7 +1,12 @@
 import java.util.Scanner;
 
+/**
+ * Main Class for running the program
+ *
+ * @author : Rifa Faruqi, Furqan Al Ghifari Zulva
+ * @version : 1.0
+ */
 class Main{
-	
 	public static void main(String[] args){
 		Scanner in = new Scanner(System.in);
 		MataUang MU = new Rupiah();
@@ -31,6 +36,5 @@ class Main{
 		MU.setMataUang(amount);
 		MU.toMataUang(to);
 		
-		
 	}
-	}
+}
