@@ -1,11 +1,10 @@
 /**
- * Write a description of class MataUang here.
+ * Abstract Superclass  
  *
- * @author (your name)
- * @version (a version number or a date)
+ * @author : Rifa Faruqi, Furqan Al Ghifari Zulva
+ * @version : 1.0
  */
 public abstract class MataUang{
 	abstract void toMataUang(String matauang);
 	abstract void setMataUang(double amount);
-  
 }
