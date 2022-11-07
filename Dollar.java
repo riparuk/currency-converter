@@ -1,14 +1,43 @@
 /**
- * Write a description of class Dollar here.
+ * Subclass inherit from MataUang
  *
- * @author (your name)
- * @version (a version number or a date)
+ * @author : Rifa Faruqi, Furqan Al Ghifari Zulva
+ * @version : 1.0
  */
 public class Dollar extends MataUang{
-   private double amount = 0.0;
+   	private double amount;
+	
+	/**
+	 * Constructor for initialize attributes
+	 */
+	public Dollar(){
+		amount = 0.0;
+	}
+	
+	/**
+	 * Constructor for initialize attributes
+	 * 
+	 * @param amount
+	 */
+	public Dollar(double amount){
+		this.amount = amount;
+	}
+	
+	/**
+	 * Mutator method for setting a value to attribute amount
+	 * 
+	 * @param amount
+	 */
 	public void setMataUang(double amount){
 		this.amount = amount;
 	}
+	
+	/**
+	 * Method for returning converted value
+	 * "IDR to USD, IDR to EUR, and vice versa"
+	 * 
+	 * @param matauang
+	 */
 	public void toMataUang(String matauang){
 		switch(matauang){
 			case "USD":
