@@ -10,7 +10,12 @@ class Main{
 	public static void main(String[] args){
 		Scanner in = new Scanner(System.in);
 		MataUang MU = new Rupiah();
-		
+		System.out.println("Currency Code : ");
+		System.out.println("-IDR");
+		System.out.println("-USD");
+		System.out.println("-EUR");
+		System.out.println("================");
+		System.out.println("Enter Code!");
 		System.out.print("From : ");
 		String from = in.nextLine();
 		
